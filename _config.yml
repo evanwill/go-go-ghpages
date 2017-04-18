@@ -10,4 +10,4 @@ url: "https://evanwill.github.io/go-go-ghpages" # the base hostname & protocol f
 # Build settings
 markdown: kramdown
 
-# note: fig include, {% include image.html file="my-cat.jpg" alt="cat" cap="My cat" %}
+# note: fig include, {% include image.html file="my-cat.jpg" alt="cat" cap="My cat" width="15%" %}

@@ -3,11 +3,11 @@ layout: default
 title: 0-Prep
 ---
 
-# Prep and Installation
+# Workshop Prep
 
 To get ready for this workshop, please create a free [GitHub account](https://github.com/join) if you do not have one already.
 Basic familiarity with the GitHub web interface and Git will be helpful. 
-Check out GitHub's [hello world guide](https://guides.github.com/activities/hello-world/) and [Try Git](https://try.github.io/).
+If you have time, check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and [Try Git](https://try.github.io/).
 
 # Local Jekyll Setup
 
@@ -15,6 +15,8 @@ The workshop will introduce several ways to create gh-pages without using Jekyll
 However, if you would like to do development with Jekyll on your laptop, it is necessary to install Git, Ruby, and Jekyll.
 
 ## Install Git
+
+[Git](https://git-scm.com/) is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed](https://en.wikipedia.org/wiki/Distributed_version_control) version control system. [GitHub](https://github.com/) is a Git repository hosting service, a place to store and sync your work in the cloud--your Jekyll and GitHub Pages projects will be under Git version control, so you need the software on your machine. 
 
 - Windows: install [Git for Windows](https://git-for-windows.github.io/) using the default options. This will give you Git, Git Bash, and Git GUI. Git Bash is a great terminal that lets you use UNIX style commands on Windows.
 - Mac: check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, download the official [Mac installer](https://git-scm.com/downloads).
@@ -27,7 +29,7 @@ There are other [GUI apps available](https://git-scm.com/downloads/guis) for man
 
 ## Install Ruby
 
-Ruby is a fairly young and developing language with some unique features. 
+[Ruby](https://www.ruby-lang.org/en/) is a fairly young and developing programming language with some unique features. 
 To use Jekyll, you do not need to know anything about Ruby, but if you are curious, check out [Ruby in 20 minutes](https://www.ruby-lang.org/en/documentation/quickstart/).
 Frustratingly, different versions have many dependency and incompatibility problems.
 Because of these issues, many use Ruby Managers, such as [RVM](http://rvm.io/), to switch between versions.
@@ -42,15 +44,15 @@ However, if you are just interested in working with Jekyll, using an installer f
 ## Install Jekyll
 
 > Note: Jekyll does not officially support Windows, however it is cross platform (they just don’t officially write windows documentation or check for bugs). 
-> There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it is out of date. Not everything mentioned is required any more.
+> There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it is out of date and inaccurate.
 
-Jekyll is a Ruby Gem, a software package installed via Ruby's management system called RubyGems (similar to Python's `pip`). 
+Jekyll is a Gem, a software package installed via Ruby's management system called RubyGems (similar to Python's Pip). 
 Open a terminal and type:
 `gem install jekyll bundler`
 
 Note: Linux users may need to `sudo`.
 This might take a minute as Gem installs all the dependencies. 
 
-> On Windows, if `gem` returns an error about secure connections, it may be necessary to update to a newer version of RubyGems as some versions had out of date SSL certificates.
-> Manually install the newer version by downloading the [zip package](https://rubygems.org/pages/download#formats).
-> Unzip the package, then run `ruby setup.rb`.
+> On Windows, if `gem` returns an error about secure connections, it may be necessary to update to a newer version of RubyGems as some versions have out of date SSL certificates.
+> Manually install the newer version by downloading the [RubyGems zip package](https://rubygems.org/pages/download#formats).
+> Unzip the package, then run `ruby setup.rb` in the directory.

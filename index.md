@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<div> 
+    <img src="{{ site.url }}/images/octocat.jpg" alt="github octocat" style="width:45%;" >
+    <img src="{{ site.url }}/images/jekyll.png" alt="jekyll icon" style="width:45%;" >
+</div>
+
 # Build a Website with Jekyll and GitHub Pages 
 
 With [GitHub pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/) you can quickly create and publish a website for free! 
