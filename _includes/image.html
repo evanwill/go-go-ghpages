@@ -1,0 +1,4 @@
+<figure>
+  <img src="{{ site.url }}/images/{{ include.file }}" alt="{{ include.alt }}" {% if include.width %}style="width:{{include.width}};"{% endif %}>
+  {% if include.cap %}<figcaption>{{ include.cap }}</figcaption>{% endif %}
+</figure>

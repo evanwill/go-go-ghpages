@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper" >
+    <div class="footer-nav">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.url }}">{{ my_page.title | escape }}</a>
+          {% endif %}
+        {% endfor %}
+    </div>
+    </div>
+      <h2 class="footer-heading"><a href="{{ "/" | prepend: site.url }}">{{ site.title | escape }}</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a> <a href="https://github.com/evanwill">evan will</a> - 2017.</h2> 
+  </div>
+</footer>
