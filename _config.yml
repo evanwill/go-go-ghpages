@@ -1,7 +1,7 @@
 # Jekyll workshop template
 # based on minima theme https://github.com/jekyll/minima
 
-title: Go Go GHpages!
+title: go-go gh-pages!
 description: > 
   Learn about GitHub pages and Jekyll. 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -10,4 +10,4 @@ url: "https://evanwill.github.io/go-go-ghpages" # the base hostname & protocol f
 # Build settings
 markdown: kramdown
 
-# note: fig include, {% include image.html file="my-cat.jpg" alt="cat" cap="My cat" width="15%" %}
+# figure include: {% include image.html file="cat.jpg" alt="kitten" cap="My cat" width="45%" %}

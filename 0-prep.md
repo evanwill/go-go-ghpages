@@ -56,3 +56,14 @@ This might take a minute as Gem installs all the dependencies.
 > On Windows, if `gem` returns an error about secure connections, it may be necessary to update to a newer version of RubyGems as some versions have out of date SSL certificates.
 > Manually install the newer version by downloading the [RubyGems zip package](https://rubygems.org/pages/download#formats).
 > Unzip the package, then run `ruby setup.rb` in the directory.
+
+# Text Editor
+
+When working with code you should have a good text editor.
+Windows notepad does not handle UTF-8 encoding or UNIX line endings that are standard for most cross platform applications. 
+For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac TextEdit, or Linux Gedit are sufficient.
+However, a more complete code editor will be helpful for managing Jekyll projects.
+
+Open-source cross platform suggestions:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Atom](https://atom.io/)
