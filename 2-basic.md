@@ -46,7 +46,7 @@ Demo:
 # Automatic Theme Chooser
 
 The Theme Chooser is a fully automated option to create a stock page for a repository using a Jekyll theme. 
-It converts [Markdown](https://daringfireball.net/projects/markdown/) files into site pages using the selected theme layout (Markdown basics are on the [Reference page](5-reference.html).
+It converts [Markdown](https://daringfireball.net/projects/markdown/) files into site pages using the selected theme layout (Markdown basics are on the [Reference page](5-reference.html)).
 This is a handy way to convert a README into a slightly more attractive project home page--in seconds!  
 
 Demo: 
@@ -75,7 +75,7 @@ Demo:
 4. Add an image:
     - From the repository's main page, click *Upload files* button.
     - Drag & drop a small image file, add a commit message, and click *Commit changes*.
-    - Edit the `README.md` file, adding the image to the Markdown like: `![alt text](filename.jpg)`. Also add a link to an About page, like: `[About](about.md)`. *Commit changes*!
+    - Edit the `README.md` file, adding the image to the Markdown like: `![alt text](filename.jpg)`. Also add a link to an About page, like: `[About](about.md)`. Commit changes!
 5. Add an About page:
     - From the repository's main page, click the *Create new file* button.
     - Name the file `about.md`.

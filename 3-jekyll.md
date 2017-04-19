@@ -89,6 +89,7 @@ You have a Jekyll blog!
 
 Any markdown files added to the `_post` directory with the correct filename convention will become blog post on your site. 
 Markdown files added to the root directory will be come pages and show up in the navigation.
+
 Read the [Minima](https://github.com/jekyll/minima) documentation to learn about the customization options--or just look at how the repository is set up for an example. 
 If you put any file in the same place as the theme's structure, your version will replace it. 
 
