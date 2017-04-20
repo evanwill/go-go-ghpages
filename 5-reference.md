@@ -146,3 +146,4 @@ Some are Gems and can be installed by adding the theme to the config and gem fil
 You will not see the theme directories, such as `assets`, `_layouts`, `_includes`, and `_sass`. 
 Others should just be downloaded and added to your project directory manually.
 - [Jekyll Directory](http://themes.jekyllrc.org/)
+- [Themes supported by gh-pages](https://pages.github.com/themes/) (these can be added to `_config.yml` as in 3-Jekyll example).
