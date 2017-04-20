@@ -37,6 +37,7 @@ Demo using the [Minima](https://github.com/jekyll/minima) theme:
     markdown: kramdown
     theme: minima
     ```
+
     Be careful with indentation, YAML likes exactly 2 spaces.
 3. Create a `about.md` file for the About page.
     - From the repository's main page, click the *Create new file* button.
@@ -81,6 +82,7 @@ Demo using the [Minima](https://github.com/jekyll/minima) theme:
     This is it!
     What a wonderful post! 
     ```
+
     - Commit the changes, wait a minute for gh-pages to rebuild the site.
 
 ## Congrats! 
