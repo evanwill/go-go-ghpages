@@ -16,6 +16,8 @@ This workshop will introduce the basics of using the popular static website gene
 You will learn how to set up a project repository, write content in Markdown, and publish your site, all using GitHub's user friendly web interface. 
 Advanced usage of Jekyll for local web development is introduced final section.
 
+Watch [workshop screen cast](https://youtu.be/SWVjQsvQocA) for full content.
+
 ### Hosted at [University of Idaho Library](http://www.lib.uidaho.edu/) April 2017
 
 > built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
