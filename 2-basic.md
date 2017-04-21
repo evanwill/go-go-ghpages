@@ -26,14 +26,14 @@ Demo:
     - Name the file `index.html`.
     - Write some HTML in the web editor! For example:
 
-    ```
-    <html>
-        <body>
-            <h1>Hello World!</h1>
-            <p>gh-pages rock!</p>
-        </body>
-    </html>
-    ```
+      ```
+      <html>
+          <body>
+              <h1>Hello World!</h1>
+              <p>gh-pages rock!</p>
+          </body>
+      </html>
+      ```
     - Scroll to the bottom, add a message, and click *Commit new file*. (You just used Git!)
 3. Activate gh-pages:
     - Click on the repository's *Settings* tab.
@@ -59,12 +59,12 @@ Demo:
     - Click on the *Edit* (pencil icon) button at the top right of the file content.
     - Edit the content in the web editor. For example:
 
-    ```
-    # Hello World! 
+      ```
+      # Hello World! 
 
-    This is a great new site.
-    p.s. gh-pages rock!
-    ```
+      This is a great new site.
+      p.s. gh-pages rock!
+      ```
     - Scroll to the bottom, add a message, and click *Commit changes*. (You just did a `git commit -m "..."`!) 
 3. Activate gh-pages:
     - Click on the repository's *Settings* tab.
@@ -81,17 +81,17 @@ Demo:
     - Name the file `about.md`.
     - At the top of the file add YAML Front Matter (a sign to Jekyll to process the file). Add some content and a link back to the README. For example:
 
-    ```
-    ---
-    title: About
-    ---
+      ```
+      ---
+      title: About
+      ---
 
-    # About this project
+      # About this project
 
-    In a word: **Awesome!**
+      In a word: **Awesome!**
 
-    See the [Home page](README.md)
-    ```
+      See the [Home page](README.md)
+      ```
     - Commit the changes, wait for a minute for the site to rebuild.
 
 > If you want to clean up after these tests, repositories can be deleted from the Settings tab.

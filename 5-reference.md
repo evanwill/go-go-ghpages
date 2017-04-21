@@ -37,6 +37,8 @@ Numbered:
 2. two 
 
 > Block quote.
+
+----
 ```
 
 Will be rendered like this:
@@ -60,6 +62,12 @@ Numbered:
 2. two 
 
 > Block quote.
+
+----
+
+Check out this [GitHub Markdown tutorial](https://guides.github.com/features/mastering-markdown/) for more info.
+
+> Note: Jekyll uses the Ruby based [kramdown](https://kramdown.gettalong.org/) to compile Markdown, so supports a few extras beyond the standard syntax. Check the [kramdown quickref](https://kramdown.gettalong.org/quickref.html).
 
 ![yaml icon](images/yaml-icon.png) 
 

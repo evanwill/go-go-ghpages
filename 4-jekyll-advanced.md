@@ -12,7 +12,7 @@ Basically, Jekyll provides a stack of web development tools that operate over a 
 You could install and use these tools separately, but bundling them into a single app makes the process simpler and more powerful.
 The Jekyll stack includes: 
 - Ruby (core and extensions)
-- Kramdown (base Markdown content)
+- kramdown (Markdown for base content)
 - Liquid (templating)
 - Sass (css preprocessing)
 - YAML (data, config)
@@ -26,6 +26,9 @@ Create a new project with `jekyll new project-name` and start the local developm
 
 # Project Directory Tour
 
+A Jekyll project is simply a directory of files, the source code for building a web site. 
+A few directories have specialized uses for Jekyll and are denoted with an `_` underscore beginning the name.
+
 - `example-site`: Your Jekyll project is a Git repository. The top level contains configurations and files that will become root level pages in your site. Edit the overall site settings in `_config.yml`. Changes to `_config.yml` are not automatically refreshed during `jekyll serve`, you have to stop the server and restart.
     - `_layouts`: The basic templates for complete web pages, generally constructed with Liquid includes. They are called by YAML front matter on each page or post.
     - `_includes`: Modular chunks of HTML that can be called into a page layout by Liquid. For example `{% raw %}{% include head.html %}{% end raw %}` in a page layout would add the include `head.html` from the `_includes` directory.
@@ -33,7 +36,10 @@ Create a new project with `jekyll new project-name` and start the local developm
     - `_sass`: Contains the modular `.scss` partials that will be pulled into your main CSS for the site. File names should start with an underscore.
     - `_data`: YAML, JSON, and CSV files in this directory will be exposed as variables to the build engine so that values can be called into pages using Liquid. You can use this data to create pages, make menus, or fill content anywhere in your site.
     - `css` / `assets` / `images`: Directories without an underscore are copied to the generated site. One should contain a base SCSS file used to compile the partials into the site's CSS file. Any file with no YAML front matter will also be simply copied without processing, for example images or java script libraries. 
-    - `_site`: This is the built out version of your new static site. Never modify files in this directory. It will be completely deleted and rebuilt with each `jekyll serve` or `jekyll build`.
+    - `_site`: This is the built out version of your new static site. Never modify files in this directory. It will be completely deleted and rebuilt with each `jekyll serve` or `jekyll build`. If you want to deploy your site to a static web host, copy this directory to your server!
+
+For example, check out the repository used to build this site, [go-go-ghpages](https://github.com/evanwill/go-go-ghpages).
+Fork it and start editing file to see how it works!
 
 # Basic Workflow
 

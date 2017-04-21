@@ -24,19 +24,19 @@ Demo using the [Minima](https://github.com/jekyll/minima) theme:
     - Name the file `_config.yml`.
     - Add the basic YAML fields required by Jekyll:
 
-    ```
-    # basic options
-    title: Your awesome title
-    author: GitHub User
-    email: your-email@domain.com
-    description: A wonderful site
-    twitter_username: jekyllrb
-    github_username:  jekyll
+      ```
+      # basic options
+      title: Your awesome title
+      author: GitHub User
+      email: your-email@domain.com
+      description: A wonderful site
+      twitter_username: jekyllrb
+      github_username:  jekyll
 
-    # Build settings
-    markdown: kramdown
-    theme: minima
-    ```
+      # Build settings
+      markdown: kramdown
+      theme: minima
+      ```
 
     Be careful with indentation, YAML likes exactly 2 spaces.
 3. Create a `about.md` file for the About page.
@@ -44,23 +44,23 @@ Demo using the [Minima](https://github.com/jekyll/minima) theme:
     - Name the file `about.md`.
     - At the top of the file add YAML Front Matter. Add some content. For example:
 
-    ```
-    ---
-    layout: page
-    title: About
-    ---
+      ```
+      ---
+      layout: page
+      title: About
+      ---
 
-    This is an about page about this awesome site.
-    Hope you love it!
+      This is an about page about this awesome site.
+      Hope you love it!
 
-    Reasons:
-    - its great.
-    - its a test.
+      Reasons:
+      - its great.
+      - its a test.
 
-    ## Other thoughts
+      ## Other thoughts
 
-    This is great.
-    ```
+      This is great.
+      ```
     - Commit the changes.
 3. Activate gh-pages:
     - Click on the repository's *Settings* tab.
@@ -71,18 +71,17 @@ Demo using the [Minima](https://github.com/jekyll/minima) theme:
     - From the repository's main page, click the *Create new file* button.
     - Create a new directory by typing `_posts/`. The name field will update.
     - Name the file `2017-04-18-first-post.md` (post filenames must start with a date, use `-` to replace spaces).
-    - Add YAML Front Matter and some content, for example:
+    - Add YAML Front Matter and some content, for example,
+        
+      `````
+      ---
+      layout: post
+      title: A Great First Post
+      ---
 
-    ```
-    ---
-    layout: post
-    title: A Great First Post
-    ---
-
-    This is it!
-    What a wonderful post! 
-    ```
-
+      This is it!
+      What a wonderful post!
+      `````
     - Commit the changes, wait a minute for gh-pages to rebuild the site.
 
 ## Congrats! 
