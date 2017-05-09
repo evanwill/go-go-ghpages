@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3-Advanced
+title: 4-Advanced
 ---
 
 # Developing with Jekyll
