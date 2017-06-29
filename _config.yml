@@ -4,8 +4,15 @@
 title: go-go gh-pages!
 description: > 
   Learn about GitHub pages and Jekyll. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://evanwill.github.io/go-go-ghpages" # the base hostname & protocol for your site
+keywords: "workshops, websites, gh-pages"
+
+url: "https://evanwill.github.io/go-go-ghpages" 
+
+# author settings for cc-by
+author: evan will
+github_username: evanwill
+pub_year: 2017
+repo: "https://github.com/evanwill/workshop-template"
 
 google_analytics: UA-74844011-1
 

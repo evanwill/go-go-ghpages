@@ -22,6 +22,6 @@ Watch [workshop screen cast](https://youtu.be/SWVjQsvQocA) for full content.
 
 > built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
 >
-> licensed cc-by-sa <a href="https://github.com/evanwill">evan will</a> 2017
+> licensed cc-by-sa <a href="https://github.com/evanwill">evan will</a> 2017. (get [source code]({{ site.repo }}))
 > 
 > <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License" /></a>
