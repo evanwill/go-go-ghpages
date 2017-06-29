@@ -1,10 +1,10 @@
-# Jekyll workshop template
+# Jekyll workshop-template https://github.com/evanwill/workshop-template
 # based on minima theme https://github.com/jekyll/minima
 
 title: go-go gh-pages!
 description: > 
   Learn about GitHub pages and Jekyll. 
-keywords: "workshops, websites, gh-pages"
+keywords: "github, github-pages, websites, static gen, hosting, html, workshop, gh-pages"
 
 url: "https://evanwill.github.io/go-go-ghpages" 
 
@@ -12,7 +12,7 @@ url: "https://evanwill.github.io/go-go-ghpages"
 author: evan will
 github_username: evanwill
 pub_year: 2017
-repo: "https://github.com/evanwill/workshop-template"
+repo: "https://github.com/evanwill/go-go-ghpages"
 
 google_analytics: UA-74844011-1
 
