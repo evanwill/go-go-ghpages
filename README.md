@@ -15,4 +15,4 @@ Advanced usage of Jekyll for local web development is introduced final section.
 
 ### Hosted at [University of Idaho Library](http://www.lib.uidaho.edu/) April 2017
 
-> licensed cc-by-sa <a href="https://github.com/evanwill">evan will</a> 2017
+> licensed [cc-by-sa](https://creativecommons.org/licenses/by-sa/4.0/) <a href="https://github.com/evanwill">evan will</a> 2017
