@@ -150,8 +150,7 @@ nav {
 # Themes
 
 [Jekyll themes](https://jekyllrb.com/docs/themes/) are really just a skeleton of directories and files making up a project. 
-Some are Gems and can be installed by adding the theme to the config and gem file. 
-You will not see the theme directories, such as `assets`, `_layouts`, `_includes`, and `_sass`. 
+Some are Gems and can be installed by adding the theme to the config and gem file, which case you will not see the theme directories in your project. 
 Others should just be downloaded and added to your project directory manually.
-- [Jekyll Directory](http://themes.jekyllrc.org/)
+- Search for Jekyll themes, there are lots of directories: [Gem based](https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme), ["Jekyll Themes"](http://themes.jekyllrc.org/), and another ["Jekyll Themes"](http://jekyllthemes.org/)
 - [Themes supported by gh-pages](https://pages.github.com/themes/), these can be added to `_config.yml` as in 3-Jekyll example and are the same as the *Theme Chooser* options. Only `minima` has navigation, alternative layouts, or blog post support built in--so they are not very useful. However, looking at the repository will give you info about how to customize the themes.
