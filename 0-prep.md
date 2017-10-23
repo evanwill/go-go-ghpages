@@ -9,7 +9,7 @@ To get ready for this workshop, please create a free [GitHub account](https://gi
 Basic familiarity with the GitHub web interface and Git will be helpful. 
 If you have time, check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and [Try Git](https://try.github.io/).
 
-# Local Jekyll Setup
+# Local Jekyll Setup [optional]
 
 The workshop will introduce several ways to create gh-pages without using Jekyll locally. 
 However, if you would like to do development with Jekyll on your laptop, it is necessary to install Git, Ruby, and Jekyll.
@@ -39,7 +39,7 @@ However, if you are just interested in working with Jekyll, using an installer f
     - First, [download](https://rubyinstaller.org/downloads/) the most recent 32-bit version and double click to install. Use the install defaults, but make sure “Add Ruby executables to your PATH” is checked. 
     - Second, from the same [download page](https://rubyinstaller.org/downloads/), download the Development Kit for the Ruby version you installed. Double click the DevKit file to extract, saving it to a permanent location, such as `C:\rubyDevKit`. Then open the directory in a terminal and run the commands `ruby dk.rb init` and `ruby dk.rb install`.
 - Mac: Use [Homebrew](https://brew.sh/), `brew install ruby`
-- Linux: Even though the version will not be the most up-to-date, use your distro's repositories. For example on Ubuntu, `sudo apt-get install ruby-full`. Make sure your version is > 2.0.
+- Linux: Even though the version will not be the most up-to-date, use your distro's repositories. For example on Ubuntu, `sudo apt install ruby-full`. Make sure your version is > 2.0. You will also need the build tools Make and GCC, on Ubuntu get them with `sudo apt install build-essential`.
 
 ## Install Jekyll
 
