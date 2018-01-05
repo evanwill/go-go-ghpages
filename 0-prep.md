@@ -20,7 +20,7 @@ However, if you would like to do development with Jekyll on your laptop, it is n
 
 - Windows: install [Git for Windows](https://git-for-windows.github.io/) using the default options. This will give you Git, Git Bash, and Git GUI. Git Bash is a great terminal that lets you use UNIX style commands on Windows.
 - Mac: check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, download the official [Mac installer](https://git-scm.com/downloads).
-- Linux: install from your distribution's software center or package manager (for Ubuntu `sudo apt-get install git`).
+- Linux: install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
 
 If you are interested in using a visual GUI application integrated with GitHub, Windows and Mac users should also install [GitHub Desktop](https://desktop.github.com/) using the default options.
 You can install GitHub Desktop in addition to other versions of Git.
@@ -36,8 +36,9 @@ Because of these issues, many use Ruby Managers, such as [RVM](http://rvm.io/), 
 However, if you are just interested in working with Jekyll, using an installer for your OS should be sufficient.
 
 - Windows: Use [RubyInstaller for Windows](https://rubyinstaller.org/). 
-    - First, [download](https://rubyinstaller.org/downloads/) the most recent 32-bit version and double click to install. Use the install defaults, but make sure “Add Ruby executables to your PATH” is checked. 
-    - Second, from the same [download page](https://rubyinstaller.org/downloads/), download the Development Kit for the Ruby version you installed. Double click the DevKit file to extract, saving it to a permanent location, such as `C:\rubyDevKit`. Then open the directory in a terminal and run the commands `ruby dk.rb init` and `ruby dk.rb install`.
+    - First, [download](https://rubyinstaller.org/downloads/) the suggested stable version (Ruby 2.4.X (x64)+) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
+    - Second, the installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. (This installer can be restarted by typing `ridk install` into a command prompt)
+    - *Note:* versions 2.3.X and older require a separate DevKit. From the [download page](https://rubyinstaller.org/downloads/), get the Development Kit for the Ruby version you installed. Double click the DevKit file to extract, saving it to a permanent location, such as `C:\rubyDevKit`. Then open the directory in a terminal and run the commands `ruby dk.rb init` and `ruby dk.rb install`.
 - Mac: Use [Homebrew](https://brew.sh/), `brew install ruby`
 - Linux: Even though the version will not be the most up-to-date, use your distro's repositories. For example on Ubuntu, `sudo apt install ruby-full`. Make sure your version is > 2.0. You will also need the build tools Make and GCC, on Ubuntu get them with `sudo apt install build-essential`.
 
@@ -51,7 +52,7 @@ Open a terminal and type:
 `gem install jekyll bundler`
 
 Note: Linux users may need to `sudo`.
-This might take a minute as Gem installs all the dependencies. 
+This will take a minute as Gem installs all the dependencies and builds extensions. 
 
 > On Windows, if `gem` returns an error about secure connections, it may be necessary to update to a newer version of RubyGems as some versions have out of date SSL certificates.
 > Manually install the newer version by downloading the [RubyGems zip package](https://rubygems.org/pages/download#formats).
