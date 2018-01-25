@@ -17,6 +17,8 @@ The Jekyll stack includes:
 - Sass (css preprocessing)
 - YAML (data, config)
 
+> For basic information about these components check the [Reference page]({{ "/5-reference.html" | absolute_url }}).
+
 There is not a GUI, Jekyll uses a handful of terminal commands to do everything. 
 Create a new project with `jekyll new project-name` and start the local development server with `jekyll serve`.
 

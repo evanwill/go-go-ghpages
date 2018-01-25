@@ -153,4 +153,16 @@ nav {
 Some are Gems and can be installed by adding the theme to the config and gem file, which case you will not see the theme directories in your project. 
 Others should just be downloaded and added to your project directory manually.
 - Search for Jekyll themes, there are lots of directories: [Gem based](https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme), ["Jekyll Themes"](http://themes.jekyllrc.org/), and another ["Jekyll Themes"](http://jekyllthemes.org/)
-- [Themes supported by gh-pages](https://pages.github.com/themes/), these can be added to `_config.yml` as in 3-Jekyll example and are the same as the *Theme Chooser* options. Only `minima` has navigation, alternative layouts, or blog post support built in--so they are not very useful. However, looking at the repository will give you info about how to customize the themes.
+- [Themes supported by gh-pages](https://pages.github.com/themes/), these can be added to `_config.yml` as in [3-Jekyll]({{ "/3-jekyll.html" | absolute_url }}) example and are the same as the *Theme Chooser* options. Only `minima` has navigation, alternative layouts, or blog post support built in--so they are not very useful. However, looking at the repository will give you info about how to customize the themes.
+- [Remote themes on GitHub](https://github.com/blog/2464-use-any-theme-with-github-pages), any theme that is hosted on GitHub can be used by adding `remote_theme: owner/name` to `_config.yml`. You can find options in the [jekyll-theme topic](https://github.com/topics/jekyll-theme).
+
+# GH-Pages Jekyll Version and Plugins
+
+If you are developing for gh-pages, it is a good idea to keep your environment in sync with what is used on GitHub. 
+This can be done automatically using the [github-pages gem](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) (although I rarely bother to do so).
+To see what version of Jekyll and which plugins GH-Pages use, take a look at the [Dependency Versions page](https://pages.github.com/versions/).
+Most of these are builtin dependencies of Jekyll, but there are a few plugins of interest.
+To use the extra plugins, add them to your `_config.yml`, under `gems:`, not in the the gemfile (since gh-pages ignores that).
+ 
+- jekyll-seo-tag (GitHub [info](https://help.github.com/articles/search-engine-optimization-for-github-pages/), [usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md), basically add {% raw %}`{% seo %}`{% endraw %} to the `<head>` of your pages, and make sure you have all the metadata in your `_config.yml`).
+- jekyll-sitemap (GitHub [info](https://help.github.com/articles/sitemaps-for-github-pages/), [repo](https://github.com/jekyll/jekyll-sitemap)).
