@@ -1,6 +1,6 @@
 ---
-layout: default
 title: 0-Prep
+nav: true
 ---
 
 # Workshop Prep

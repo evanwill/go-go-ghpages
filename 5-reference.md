@@ -1,6 +1,6 @@
 ---
-layout: default
 title: 5-Ref
+nav: true
 ---
 
 # Reference 

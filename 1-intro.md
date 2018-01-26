@@ -1,6 +1,6 @@
 ---
-layout: default
 title: 1-Intro
+nav: true
 ---
 
 # Introduction to GitHub Pages
@@ -10,7 +10,7 @@ It provides a handy web interface for managing, editing, and collaborating on re
 Originally designed to manage large open-source software projects, its use has expanded to many other types of organizations and individuals, with over 20 million users.
 Accounts are free for public repositories--private repositories are available on a subscription pricing model.
 
-{% include image.html file="octocat.jpg" alt="github octocat" width="45%" %}
+{% include figure.html file="octocat.jpg" alt="github octocat" width="45%" %}
 
 One amazingly useful GitHub feature is [GitHub Pages](https://guides.github.com/features/pages/).
 It provides free static web hosting from any repository.

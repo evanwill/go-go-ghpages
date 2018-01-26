@@ -1,6 +1,6 @@
 ---
-layout: default
 title: 2-Basic
+nav: true
 ---
 
 # GitHub Pages Basics

@@ -1,10 +1,10 @@
 ---
-layout: default
+title: Home
 ---
 
 <div> 
-    <img src="{{ site.url }}/images/octocat.jpg" alt="github octocat" style="width:45%;" >
-    <img src="{{ site.url }}/images/jekyll.png" alt="jekyll icon" style="width:45%;" >
+    <img src="{{ "/images/octocat.jpg" | absolute_url }}" alt="github octocat" style="width:45%;" >
+    <img src="{{ "/images/jekyll.png" | absolute_url }}" alt="jekyll icon" style="width:45%;" >
 </div>
 
 # Build a Website with Jekyll and GitHub Pages 
@@ -17,6 +17,14 @@ You will learn how to set up a project repository, write content in Markdown, an
 Advanced usage of Jekyll for local web development is introduced final section.
 
 Watch [workshop screen cast](https://youtu.be/SWVjQsvQocA) for full content.
+
+<div class="toc" markdown="1">
+## Contents:
+
+{% for lesson in site.pages %}
+{% if lesson.nav == true %}- [{{ lesson.title }}]({{ lesson.url | absolute_url }}){% endif %}
+{% endfor %}
+</div>
 
 ### Hosted at [University of Idaho Library](http://www.lib.uidaho.edu/) April 2017
 

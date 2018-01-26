@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ "/" | prepend: site.url }}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ "/" | absolute_url }}">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
       <span class="menu-icon">
@@ -14,9 +14,9 @@
       </span>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.url }}">{{ my_page.title | escape }}</a>
+        {% for lesson in site.pages %}
+          {% if lesson.nav == true %}
+          <a class="page-link" href="{{ lesson.url | absolute_url }}">{{ lesson.title | escape }}</a>
           {% endif %}
         {% endfor %}
       </div>

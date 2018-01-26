@@ -1,6 +1,6 @@
 ---
-layout: default
 title: 3-Jekyll
+nav: true
 ---
 
 # GitHub Jekyll Project
@@ -96,7 +96,7 @@ If you put any file in the same place as the theme's structure, your version wil
 
 Thanks Octocat!
 
-{% include image.html file="octocat.jpg" alt="github octocat" width="45%" %}
+{% include figure.html file="octocat.jpg" alt="github octocat" width="45%" %}
 
 > If you want to collaborate on the blog, add other GitHub users in the *Settings* tab. Look for *Collaborators* on the left side menu.
 > You can keep track of the project using the *Issues* or *Projects* features.

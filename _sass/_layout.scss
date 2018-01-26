@@ -195,8 +195,12 @@
   display: block;
   font-size: 24px;
 }
-
-
+.toc {
+  padding: 10px;
+  margin: 15px;
+  border: solid 1px $grey-color-light;
+  border-radius: 5px;
+}
 
 /**
  * Posts

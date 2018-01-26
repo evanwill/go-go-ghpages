@@ -1,6 +1,6 @@
 ---
-layout: default
 title: 4-Advanced
+nav: true
 ---
 
 # Developing with Jekyll
