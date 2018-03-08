@@ -7,7 +7,7 @@
 # - use environment variable on build command to include analytics: JEKYLL_ENV=production jekyll build
 
 # site settings
-title: go-go gh-pages!
+title: Git Hub Pages Install Instructions!
 description: > 
   Learn about GitHub pages and Jekyll. 
 keywords: "github, github-pages, websites, static gen, hosting, html, workshop, gh-pages"
@@ -15,14 +15,14 @@ keywords: "github, github-pages, websites, static gen, hosting, html, workshop, 
 # author settings for cc-by
 author: evan will
 pub_year: 2017
-github_username: evanwill
+github_username: rasheqrahman
 
 # add the full url for the github repository
-repo: "https://github.com/evanwill/go-go-ghpages"
+repo: "https://github.com/rasheqrahman/go-go-ghpages"
 
 # urls
 # your gh-pages url: https://username.github.io
-url: https://evanwill.github.io
+url: https://rasheqrahman.github.io
 # your repository name: /repository
 baseurl: /go-go-ghpages
 
