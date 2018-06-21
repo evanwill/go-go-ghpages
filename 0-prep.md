@@ -6,13 +6,14 @@ nav: true
 # Workshop Prep
 
 To get ready for this workshop, please create a free [GitHub account](https://github.com/join) if you do not have one already.
-Basic familiarity with the GitHub web interface and Git will be helpful. 
-If you have time, check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and [Try Git](https://try.github.io/).
+Basic familiarity with the GitHub web interface will be helpful.
+
+For a quick introduction check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/) and [Try Git](https://try.github.io/).
+
+This workshop introduces GitHub Pages using GitHub's web interface, demonstrating several ways to create gh-pages without using Jekyll locally.
+However, for more advanced uses you will want Git, Ruby, and Jekyll installed on your computer.
 
 # Local Jekyll Setup [optional]
-
-The workshop will introduce several ways to create gh-pages without using Jekyll locally. 
-However, if you would like to do development with Jekyll on your laptop, it is necessary to install Git, Ruby, and Jekyll.
 
 ## Install Git
 
@@ -20,7 +21,7 @@ However, if you would like to do development with Jekyll on your laptop, it is n
 
 - Windows: install [Git for Windows](https://git-for-windows.github.io/) using the default options. This will give you Git, Git Bash, and Git GUI. Git Bash is a great terminal that lets you use UNIX style commands on Windows.
 - Mac: check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, download the official [Mac installer](https://git-scm.com/downloads).
-- Linux: install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
+- Linux: check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
 
 If you are interested in using a visual GUI application integrated with GitHub, Windows and Mac users should also install [GitHub Desktop](https://desktop.github.com/) using the default options.
 You can install GitHub Desktop in addition to other versions of Git.
@@ -39,7 +40,7 @@ However, if you are just interested in working with Jekyll, using an installer f
     - First, [download](https://rubyinstaller.org/downloads/) the suggested stable version (Ruby 2.4.X (x64)+) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
     - Second, the installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. (This installer can be restarted by typing `ridk install` into a command prompt)
     - *Note:* versions 2.3.X and older require a separate DevKit. From the [download page](https://rubyinstaller.org/downloads/), get the Development Kit for the Ruby version you installed. Double click the DevKit file to extract, saving it to a permanent location, such as `C:\rubyDevKit`. Then open the directory in a terminal and run the commands `ruby dk.rb init` and `ruby dk.rb install`.
-- Mac: Use [Homebrew](https://brew.sh/), `brew install ruby`
+- Mac: Mac has a version of Ruby installed by default. Check with `ruby -v`. However, the system ruby may be out of date. A newer version can be installed using [Homebrew](https://brew.sh/), `brew install ruby`, or a manager such as [rbenv](https://github.com/rbenv/rbenv) or [RVM](http://rvm.io/). Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/#macOS) for tips.
 - Linux: Even though the version will not be the most up-to-date, use your distro's repositories. For example on Ubuntu, `sudo apt install ruby-full`. Make sure your version is > 2.0. You will also need the build tools Make and GCC, on Ubuntu get them with `sudo apt install build-essential`.
 
 ## Install Jekyll
@@ -66,5 +67,6 @@ For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac Text
 However, a more complete code editor will be helpful for managing Jekyll projects.
 
 Open-source cross platform suggestions:
+
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Atom](https://atom.io/)
