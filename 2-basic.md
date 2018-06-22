@@ -7,7 +7,9 @@ nav: true
 
 Any GitHub repository can have a site by activating gh-pages in the settings and selecting a source branch.
 Additionally, each user and organization can have one root site by creating a repository called `username.github.io` (replace username with your actual username!).
-The site will automatically appear in the github.io domain following this pattern: `https://username.github.io/repositoryname/`
+The site will automatically appear in the github.io domain following this pattern: 
+
+`https://username.github.io/repositoryname/`
 
 Let's look at the basic ways to use it!
 

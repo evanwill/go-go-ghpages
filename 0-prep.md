@@ -35,26 +35,26 @@ To use Jekyll, you do not need to know anything about Ruby, but if you are curio
 Frustratingly, different versions have many dependency and incompatibility problems.
 Because of these issues, many use Ruby Managers, such as [RVM](http://rvm.io/), to switch between versions.
 However, if you are just interested in working with Jekyll, using an installer for your OS should be sufficient.
+Jekyll requires a Ruby version > 2.2.5.
 
-- Windows: Use [RubyInstaller for Windows](https://rubyinstaller.org/). 
-    - First, [download](https://rubyinstaller.org/downloads/) the suggested stable version (Ruby 2.4.X (x64)+) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
+- **Windows:** Use [RubyInstaller for Windows](https://rubyinstaller.org/). 
+    - First, [download](https://rubyinstaller.org/downloads/) the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 2.4.X (x64)) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
     - Second, the installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. (This installer can be restarted by typing `ridk install` into a command prompt)
-    - *Note:* versions 2.3.X and older require a separate DevKit. From the [download page](https://rubyinstaller.org/downloads/), get the Development Kit for the Ruby version you installed. Double click the DevKit file to extract, saving it to a permanent location, such as `C:\rubyDevKit`. Then open the directory in a terminal and run the commands `ruby dk.rb init` and `ruby dk.rb install`.
-- Mac: Mac has a version of Ruby installed by default. Check with `ruby -v`. However, the system ruby may be out of date. A newer version can be installed using [Homebrew](https://brew.sh/), `brew install ruby`, or a manager such as [rbenv](https://github.com/rbenv/rbenv) or [RVM](http://rvm.io/). Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/#macOS) for tips.
-- Linux: Even though the version will not be the most up-to-date, use your distro's repositories. For example on Ubuntu, `sudo apt install ruby-full`. Make sure your version is > 2.0. You will also need the build tools Make and GCC, on Ubuntu get them with `sudo apt install build-essential`.
+- **Mac:** OS X has a version of Ruby installed by default. Check the version with `ruby -v`. If it is > 2.2.5 you can use the system Ruby. However, a newer version can be installed using [Homebrew](https://brew.sh/), `brew install ruby`, or a manager such as [rbenv](https://github.com/rbenv/rbenv) or [RVM](http://rvm.io/). Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/#macOS) for tips.
+- **Linux:** Even though the version will not be the most up-to-date, the simplest method is to use your distro's repositories. For example on Ubuntu, `sudo apt install ruby-full`. Make sure the repository version is > 2.2.5. You will also need the build tools Make and GCC, on Ubuntu get them with `sudo apt install build-essential`. For a more up-to-date version, use a manager such as [RVM](http://rvm.io/).
 
 ## Install Jekyll
 
 > Note: Jekyll does not officially support Windows, however it is cross platform (they just don’t officially write windows documentation or check for bugs). 
-> There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it is out of date and inaccurate.
+> There is a [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation) page, but it can be out of date and inaccurate.
 
 Jekyll is a Gem, a software package installed via Ruby's management system called RubyGems (similar to Python's Pip). 
 Open a terminal and type:
 `gem install jekyll bundler`
 
-Note: Linux users may need to `sudo`.
 This will take a minute as Gem installs all the dependencies and builds extensions. 
 
+> Note: Linux users may need to `sudo`, to avoid this install Ruby using [RVM](http://rvm.io/).
 > On Windows, if `gem` returns an error about secure connections, it may be necessary to update to a newer version of RubyGems as some versions have out of date SSL certificates.
 > Manually install the newer version by downloading the [RubyGems zip package](https://rubygems.org/pages/download#formats).
 > Unzip the package, then run `ruby setup.rb` in the directory.
@@ -62,7 +62,7 @@ This will take a minute as Gem installs all the dependencies and builds extensio
 # Text Editor
 
 When working with code you should have a good text editor.
-Windows notepad does not handle UTF-8 encoding or UNIX line endings that are standard for most cross platform applications. 
+Windows notepad does not handle UTF-8 encoding or UNIX line endings that are standard for cross platform applications. 
 For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac TextEdit, or Linux Gedit are sufficient.
 However, a more complete code editor will be helpful for managing Jekyll projects.
 
