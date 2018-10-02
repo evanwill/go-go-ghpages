@@ -3,8 +3,8 @@ title: Home
 ---
 
 <div> 
-    <img src="{{ "/images/octocat.jpg" | absolute_url }}" alt="github octocat" style="width:45%;" >
-    <img src="{{ "/images/jekyll.png" | absolute_url }}" alt="jekyll icon" style="width:45%;" >
+    <img src="{{ '/images/octocat.jpg' | absolute_url }}" alt="github octocat" style="width:45%;" >
+    <img src="{{ '/images/jekyll.png' | absolute_url }}" alt="jekyll icon" style="width:45%;" >
 </div>
 
 # Build a Website with Jekyll and GitHub Pages 
@@ -28,7 +28,7 @@ Watch [workshop screen cast](https://youtu.be/SWVjQsvQocA) for full content.
 
 ### Hosted at [University of Idaho Library](http://www.lib.uidaho.edu/) April 2017
 
-> built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
+> built using [Jekyll](https://jekyllrb.com/), [GitHub Pages](https://pages.github.com/), and [workshop-template](https://github.com/evanwill/workshop-template).
 >
 > licensed cc-by-sa <a href="https://github.com/evanwill">evan will</a> 2017. (get [source code]({{ site.repo }}))
 > 

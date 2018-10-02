@@ -1,18 +1,33 @@
 ---
 # front matter
 ---
+/* basic color customizations */
+$border-color: darken(#828282, 25%);
+$link-color: #2a7ae2 !default;
+$active-color: #2a7ae2;
+$text-color:#111 !default;
+$headings-color: #111;
+$background-color: #fdfdfd !default;
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+/* font base */ 
+@font-face {
+  font-family: 'Noto Sans';
+  src:  url('fonts/notosans-regular-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  src:  url('fonts/sourcecodepro-regular-webfont.woff') format('woff');
+}
+$base-font-family: 'Noto Sans', Helvetica, Arial, sans-serif !default;
+$code-font-family: 'Source Code Pro', monospace;
+
+/* layout base */
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
-
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -40,5 +55,6 @@ $on-laptop:        800px !default;
 // Import partials.
 @import
   "base",
-  "layout"
+  "layout",
+  "custom"
 ;

@@ -1,5 +1,6 @@
-# Jekyll workshop-template https://github.com/evanwill/workshop-template
-# based on minima theme https://github.com/jekyll/minima
+# workshop-template https://github.com/evanwill/workshop-template
+# A Jekyll template for a simple workshop website, designed for github-pages,
+# based on Minima theme https://github.com/jekyll/minima
 
 # Notes: 
 # - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
@@ -8,8 +9,7 @@
 
 # site settings
 title: go-go gh-pages!
-description: > 
-  Learn about GitHub pages and Jekyll. 
+description: "Learn about GitHub pages and Jekyll."
 keywords: "github, github-pages, websites, static gen, hosting, html, workshop, gh-pages"
 
 # author settings for cc-by
