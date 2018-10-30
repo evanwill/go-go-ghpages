@@ -5,21 +5,27 @@ nav: true
 
 # GitHub Jekyll Project
 
-[Jekyll](https://jekyllrb.com/) is a static site generator originally focused on creating simple blogs from plain text files.
-It has developed into a fully featured generator used on all types of web projects from tiny to huge.
-Gh-pages uses a Jekyll build service to generate all static web content.
+[Jekyll](https://jekyllrb.com/){:target="_blank"} is a static site generator originally focused on creating simple blogs from plain text files.
+It has developed into a fully featured generator used on all types of web projects from tiny to huge (browse the [Showcase](https://jekyllrb.com/showcase/){:target="_blank"}).
+
+{% include figure.html file="jekyll.png" alt="jekyll logo" width="45%" %}
+
+Gh-pages uses a builtin Jekyll build service to generate all static web content.
 The basic demos presented so far don't actually use any Jekyll features.
 However, a full fledged Jekyll project can be created with just a few files in a repository.
 
 > Note: file names starting with an underscore `_` are special files to Jekyll. 
 > Be sure to include them correctly!
 
-Demo using the [Minima](https://github.com/jekyll/minima) theme:
+Demo using the [Minima](https://github.com/jekyll/minima){:target="_blank"} theme:
 
 1. Create a new repository: 
     - Click the + sign in the upper right and select *New repository*. 
-    - Give the repository a nice name, check the *Initialize this repository with a README* option, and click the *Create* button.
-2. Create a `_config.yml` file to setup your Jekyll project (check the example [config](https://github.com/jekyll/minima/blob/master/_config.yml) for all the options):
+    - Give the repository a nice name
+    - Check the *Initialize this repository with a README* option
+    - Click *Add .gitignore*, search for jekyll, and select it
+    - Click the *Create repository* button.
+2. Create a `_config.yml` file to setup your Jekyll project (check the example [config](https://github.com/jekyll/minima/blob/master/_config.yml){:target="_blank"} for all the options):
     - Click the *Create new file* button on the repository page.
     - Name the file `_config.yml`.
     - Add the basic YAML fields required by Jekyll:
@@ -91,12 +97,12 @@ You have a Jekyll blog!
 Any markdown files added to the `_post` directory with the correct filename convention will become blog post on your site. 
 Markdown files added to the root directory will be come pages and show up in the navigation.
 
-Read the [Minima](https://github.com/jekyll/minima) documentation to learn about the customization options--or just look at how the repository is set up for an example. 
+Read the [Minima](https://github.com/jekyll/minima){:target="_blank"} documentation to learn about the customization options--or just look at how the repository is set up for an example. 
 If you put any file in the same place as the theme's structure, your version will replace it. 
 
 Thanks Octocat!
 
-{% include figure.html file="octocat.jpg" alt="github octocat" width="45%" %}
+{% include figure.html file="octojekyll.png" alt="octocat with jekyll" width="45%" %}
 
 > If you want to collaborate on the blog, add other GitHub users in the *Settings* tab. Look for *Collaborators* on the left side menu.
 > You can keep track of the project using the *Issues* or *Projects* features.
