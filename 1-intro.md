@@ -14,8 +14,10 @@ Public repositories are free--private repositories are available on a subscripti
 
 One amazingly useful GitHub feature is [GitHub Pages](https://pages.github.com/){:target="_blank"}.
 It provides free static web hosting from any repository with a simple *click of a button*.
-Gh-pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
-Because it is free and a valuable transferable skill, this is a great option for teaching and learning.
+GH-Pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
+
+Because using GH-Pages is free and a valuable transferable skill, this is a great option for teaching and learning.
+Users have the opportunity to become creators and participants in global digital culture, building critical digital literacy about the fabric of the web.
 
 > There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
 > If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
@@ -40,6 +42,11 @@ HTML, CSS, and JS stored in the repository are served to the user without dynami
 In the olden days static web was the norm, but database driven dynamic web sites have dominated the last decade.
 Dynamic web applications enable features such as live comments, user authentication, and personalized streams. 
 However, this functionality requires complex server-side infrastructure and processing.
+
+> `view-source:` one fascinating aspect of the web is that everyone must share code to participate. 
+> Right click on any web page and select "View page source" to see the code that is being rendered by the browser.
+> Right click on any element in the page and select "Inspect" or "Inspect Element" to open your browser's built in developer tools.
+> This is a great way to learn about HTML and to understand how others created the sites you use.
 
 Despite their limitations static sites are experiencing a [new boom](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/){:target="_blank"}, because they offer some significant advantages:
 - much faster performance (caching, low bandwidth, no processing time).
