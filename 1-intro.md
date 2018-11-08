@@ -10,18 +10,18 @@ It provides a handy web interface for managing, editing, and collaborating on Gi
 Originally designed to manage large open-source software projects, its use has expanded to many other types of organizations and individuals, with over 30 million users.
 Public repositories are free--private repositories are available on a subscription pricing model.
 
-{% include figure.html file="octocat.jpg" alt="github octocat" width="45%" %}
+{% include figure.html file="octojekyll.png" alt="github octocat" width="45%" %}
 
 One amazingly useful GitHub feature is [GitHub Pages](https://pages.github.com/){:target="_blank"}.
 It provides free static web hosting from any repository with a simple *click of a button*.
 GH-Pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
 
-Because using GH-Pages is free and a valuable transferable skill, this is a great option for teaching and learning.
-Users have the opportunity to become creators and participants in global digital culture, building critical digital literacy about the fabric of the web.
-
 > There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
 > If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
 > All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/){:target="_blank"}, e.g. no violence, obscene sex, or illegal stuff.
+
+Because using hosting through GH-Pages is free and builds valuable transferable skills, this is a great option for teaching and learning.
+Users have the opportunity to become creators and participants in global digital culture, developing critical digital literacy about the fabric of the web.
 
 Many organizations are using GitHub to collaboratively create and publish public websites. 
 For example:
