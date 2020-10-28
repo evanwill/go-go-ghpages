@@ -6,7 +6,7 @@ nav: true
 # GitHub Pages Basics
 
 Any GitHub repository can have a site by activating gh-pages in the settings and selecting a source branch.
-Additionally, each user and [organization](https://evanwill.github.io/_drafts/notes/github-org.html){:target="_blank"} can have one root site by creating a repository called `username.github.io` (replace username with your actual username!).
+Additionally, each user and [organization](https://evanwill.github.io/_drafts/notes/github-org.html){:target="_blank" rel="noopener"} can have one root site by creating a repository called `username.github.io` (replace username with your actual username!).
 The site will automatically appear in the github.io domain following this pattern: 
 
 `https://username.github.io/repositoryname/`
@@ -51,7 +51,7 @@ Demo:
 # Automatic Theme Chooser
 
 The Theme Chooser is a fully automated option to create a stock page for a repository using a Jekyll theme. 
-It converts [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank"} files into site pages using the selected theme layout (Markdown basics are on the [Reference page](5-reference.html)).
+It converts [Markdown](https://daringfireball.net/projects/markdown/){:target="_blank" rel="noopener"} files into site pages using the selected theme layout (Markdown basics are on the [Reference page](5-reference.html)).
 This is a handy way to convert a README into a slightly more attractive project home page--in seconds!  
 
 Demo: 
@@ -62,7 +62,7 @@ Demo:
 2. Edit the `README.md` file:
     - From the repository's main page, click on the `README.md` name to open the file's page.
     - Click on the *Edit* (pencil icon) button at the top right of the file content.
-    - Edit the content in the web editor ([markdown tips](https://evanwill.github.io/_drafts/notes/markdown-minute.html){:target="_blank"}). For example:
+    - Edit the content in the web editor ([markdown tips](https://evanwill.github.io/_drafts/notes/markdown-minute.html){:target="_blank" rel="noopener"}). For example:
 
       ```
       # Hello World! 
