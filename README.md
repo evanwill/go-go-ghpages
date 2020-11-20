@@ -1,5 +1,7 @@
 # go-go-ghpages
 
+This workshop is from 2017--please see [Go-Go GH-Pages V.2 (2020)](https://github.com/evanwill/go-go-ghpages-b) updated content and video!
+
 An intro workshop about GitHub Pages and Jekyll. 
 
 https://evanwill.github.io/go-go-ghpages/
