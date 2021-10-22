@@ -9,7 +9,7 @@ title: Home
 
 # Build a Website with Jekyll and GitHub Pages 
 
-This workshop is from 2017--please see [Go-Go GH-Pages V.2 (2020)](https://evanwill.github.io/go-go-ghpages-b/) updated content and video!
+**This workshop is from 2017--please see [Go-Go GH-Pages V.2 (2020)](https://evanwill.github.io/go-go-ghpages-b/) updated content and video!**
 
 With [GitHub pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/) you can quickly create and publish a website for free! 
 It is an ideal solution for creating a simple project or personal site to highlight your academic work. 
@@ -21,7 +21,7 @@ Advanced usage of Jekyll for local web development is introduced final section.
 This workshop partners well with [Get Git](https://evanwill.github.io/get-git/){:target="_blank" rel="noopener"}, which is offered earlier in the semester. 
 Experience with HTML will be helpful, but not necessary.
 
-Watch [workshop screen cast](https://youtu.be/SWVjQsvQocA){:target="_blank" rel="noopener"} (2017) for full content.
+Watch [workshop screen cast from 2017](https://youtu.be/SWVjQsvQocA){:target="_blank" rel="noopener"} for full content.
 
 <div class="toc" markdown="1">
 ## Contents:
