@@ -27,7 +27,7 @@ url: https://evanwill.github.io
 baseurl: /go-go-ghpages
 
 # analytics if desired (and use environment variable on build command)
-google_analytics: UA-74844011-1
+google_analytics: G-7N13F1ZJNR
 
 # defaults (to simplify front matter)
 defaults:
